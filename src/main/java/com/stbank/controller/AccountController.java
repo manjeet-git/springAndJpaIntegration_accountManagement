@@ -21,7 +21,7 @@ import com.stbank.service.IAccountService;
 
 @RestController
 @RequestMapping("/stbank/account")
-public class AccountController {
+public class AccountController { 
 	
 	@Autowired
 	private IAccountService service;
